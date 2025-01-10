@@ -18,8 +18,8 @@ msgstr ""
 
 #. module: purchase_quick
 #: model_terms:ir.ui.view,arch_db:purchase_quick.view_purchase_form
-msgid "Add"
-msgstr "Añadir"
+msgid "Add from supplier's product list"
+msgstr ""
 
 #. module: purchase_quick
 #: model_terms:ir.ui.view,arch_db:purchase_quick.product_search_form_view
@@ -33,14 +33,13 @@ msgid "For current supplier"
 msgstr "Para el proveedor actual"
 
 #. module: purchase_quick
+#. odoo-python
 #: code:addons/purchase_quick/models/purchase_order.py:0
 #, python-format
 msgid ""
-"Must have only 1 line per product for mass addition, but there are {nr_lines}"
-"s lines for the product %(product)s"
+"Must have only 1 line per product for mass addition, but there are "
+"%(nr_lines)s lines for the product %(product_name)s"
 msgstr ""
-"Sólo debe haber 1 línea por producto para la adición en masa, pero hay "
-"{nr_lines}s líneas para el producto %(product)s"
 
 #. module: purchase_quick
 #: model_terms:ir.ui.view,arch_db:purchase_quick.product_tree_view4purchase
@@ -54,10 +53,11 @@ msgstr "Línea Po"
 
 #. module: purchase_quick
 #: model:ir.model,name:purchase_quick.model_product_product
-msgid "Product"
-msgstr "Producto"
+msgid "Product Variant"
+msgstr ""
 
 #. module: purchase_quick
+#. odoo-python
 #: code:addons/purchase_quick/models/purchase_order.py:0
 #, python-format
 msgid "Product Variants"
@@ -87,3 +87,17 @@ msgstr "UdM"
 #: model:ir.model.fields,field_description:purchase_quick.field_product_product__variant_specific_seller_ids
 msgid "Variant Specific Seller"
 msgstr "Vendedor Específico de Variantes"
+
+#~ msgid "Add"
+#~ msgstr "Añadir"
+
+#, python-format
+#~ msgid ""
+#~ "Must have only 1 line per product for mass addition, but there are "
+#~ "{nr_lines}s lines for the product %(product)s"
+#~ msgstr ""
+#~ "Sólo debe haber 1 línea por producto para la adición en masa, pero hay "
+#~ "{nr_lines}s líneas para el producto %(product)s"
+
+#~ msgid "Product"
+#~ msgstr "Producto"
